@@ -5,29 +5,29 @@ Based on awesome speech from Jed Watson (see here: https://github.com/JedWatson/
 npm version 3.9.5
 
 ## Steps
-### Clone
+### 1 Clone
 Clone this project
 ```
 git clone https://github.com/themadrussian/cordova-react-hmr-template.git
 ```
-### Edit details
+### 2 Edit details
 Edit file ```package.json``` and change all URLs, e.g., repository, bugs, etc.
 You probably don't want to try upload back to my repository :)
 
-### Initialize npm (optional)
+### 3 Initialize npm (optional)
 The command will ask for your name, and which license you prefer. But you could set all that up manually from the previous step.
 ```
 npm init
 ```
-### install dependencies
+### 4 Install dependencies
 ```
 npm install
 ```
-### Cordova/PhoneGap details
+### 5 Cordova/PhoneGap details
 edit ```config.html```
 Change <name>, <description>, and <author> tags
 
-## icons, splashscreen and such
+## Icons, Splashscreens and such
 I recommend using ionic for that. Easy instructions here: http://blog.ionic.io/automating-icons-and-splash-screens/
 There is an icon.png file in the root folder, replace that with your own icon file.
 
