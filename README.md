@@ -1,5 +1,5 @@
 # Template to start hot module reload with React
-Based on awesome speech and project by Jed Watson
+Based on the awesome speech and project by Jed Watson
 (Presentation: http://phonegap.com/blog/2016/04/04/pgdayus2016-phonegap-reactjs/)
 (Repository: https://github.com/JedWatson/picture-tour-app/tree/master)
 
