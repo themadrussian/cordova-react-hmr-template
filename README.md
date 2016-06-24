@@ -1,29 +1,31 @@
 # Template to start hot module reload with React
-Based on awesome speech from Jed Watson (see here: https://github.com/JedWatson/picture-tour-app/tree/master)
+Based on awesome speech and project by Jed Watson
+(Presentation: http://phonegap.com/blog/2016/04/04/pgdayus2016-phonegap-reactjs/)
+(Repository: https://github.com/JedWatson/picture-tour-app/tree/master)
 
 ## Requirements
-npm version 3.9.5
+npm version 3.9.5 or later
 
 ## Steps
-### 1 Clone
+### 1. Clone
 Clone this project
 ```
 git clone https://github.com/themadrussian/cordova-react-hmr-template.git
 ```
-### 2 Edit details
+### 2. Edit details
 Edit file ```package.json``` and change all URLs, e.g., repository, bugs, etc.
 You probably don't want to try upload back to my repository :)
 
-### 3 Initialize npm (optional)
+### 3. Initialize npm (optional)
 The command will ask for your name, and which license you prefer. But you could set all that up manually from the previous step.
 ```
 npm init
 ```
-### 4 Install dependencies
+### 4. Install dependencies
 ```
 npm install
 ```
-### 5 Cordova/PhoneGap details
+### 5. Cordova/PhoneGap details
 edit ```config.html```
 Change <name>, <description>, and <author> tags
 
