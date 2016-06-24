@@ -87,3 +87,6 @@ After that, the normal Cordova / PhoneGap commands can be used such as `phonegap
 # License
 
 MIT. Copyright (c) 2016 Mark Rogov.
+
+# TODO
+1. SASS -> CSS
