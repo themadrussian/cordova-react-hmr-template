@@ -35,6 +35,7 @@ Change <name>, <description>, and <author> tags
 Change <widget id="io.cordova.hellocordova" ... >
 
 The id must match your valid signing identity.
+See [this](http://stackoverflow.com/questions/24381216/no-provisioning-profiles-with-a-valid-signing-identity-i-e-certificate-and-pri) answer on details.
 
 ## Icons, Splashscreens and such
 I recommend using ionic for that. Easy instructions here: http://blog.ionic.io/automating-icons-and-splash-screens/
