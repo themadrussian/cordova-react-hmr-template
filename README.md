@@ -14,7 +14,7 @@ git clone https://github.com/themadrussian/cordova-react-hmr-template.git
 ```
 ### 2. Edit details
 Edit file ```package.json``` and change all URLs, e.g., repository, bugs, etc.
-You probably don't want to try upload back to my repository :)
+You probably don't want to point your project back to my repository :)
 
 ### 3. Initialize npm (optional)
 The command will ask for your name, and which license you prefer. But you could set all that up manually from the previous step.
@@ -26,7 +26,7 @@ npm init
 npm install
 ```
 ### 5. Cordova/PhoneGap details
-edit ```config.html```
+edit ```config.xml```
 Change <name>, <description>, and <author> tags
 
 ## Icons, Splashscreens and such
@@ -38,8 +38,19 @@ There is an icon.png file in the root folder, replace that with your own icon fi
 ```
 npm start
 ```
+## Where files are
+- ```www/index.html``` Is the entry point. But it carries no weight, other than the <head><title>TITLE</title></head>
+- ```src/index.js``` Is the main React script, replacing <div is="App"></div> inside ```www/index.html```
+- ```src/components/Board``` place for add-on components, if any
 
+## Open browser here
 You can then open the app in your browser by visiting [localhost:8080](http://localhost:8080)
+
+## Edit files
+Edit file, and just save them. The browser will auto reload with new changes (hot reload)
+without losing state of the components. Go webpack + NPM!
+
+## Compiling for a platform (hot load inside a Simulator)
 
 Open it in the iOS Simulator by running (in another terminal):
 
