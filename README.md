@@ -35,8 +35,8 @@ The id must match your valid signing identity.
 See [this](http://stackoverflow.com/questions/24381216/no-provisioning-profiles-with-a-valid-signing-identity-i-e-certificate-and-pri) answer on details.
 
 ## Icons, Splashscreens and such
-I recommend using ionic for that. Easy instructions here: http://blog.ionic.io/automating-icons-and-splash-screens/
-There is an icon.png file in the root folder, replace that with your own icon file.
+I recommend using ionic for that. Easy instructions [here](http://blog.ionic.io/automating-icons-and-splash-screens/)
+There is an ```icon.png``` file in the root folder, replace that with your own icon file.
 
 # Start Development
 
