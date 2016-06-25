@@ -1,8 +1,5 @@
 # Template to start hot module reload with React
-Based on the awesome speech and project by Jed Watson
-
-(Presentation: http://phonegap.com/blog/2016/04/04/pgdayus2016-phonegap-reactjs/)
-(Repository: https://github.com/JedWatson/picture-tour-app/tree/master)
+Based on the awesome [presentation](http://phonegap.com/blog/2016/04/04/pgdayus2016-phonegap-reactjs/) and [project](https://github.com/JedWatson/picture-tour-app/tree/master) by Jed Watson
 
 ## Requirements
 1. npm version 3.9.5 or later
