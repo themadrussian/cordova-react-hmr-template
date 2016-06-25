@@ -41,7 +41,7 @@ npm start
 ## Where files are
 - ```www/index.html``` Is the entry point. But it carries no weight, other than the <head><title>TITLE</title></head>
 - ```src/index.js``` Is the main React script, replacing <div is="App"></div> inside ```www/index.html```
-- ```src/components/Board``` place for add-on components, if any
+- ```src/components/Board.js``` place for add-on components, if any
 
 ## Open browser here
 You can then open the app in your browser by visiting [localhost:8080](http://localhost:8080)

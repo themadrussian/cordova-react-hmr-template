@@ -6,6 +6,7 @@ let env = 'build';
 switch (TARGET) {
 	case 'start':
 	case 'ios':
+			env = 'development';
 	case 'android':
 		env = 'development';
 }
