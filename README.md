@@ -1,10 +1,12 @@
 # Template to start hot module reload with React
 Based on the awesome speech and project by Jed Watson
+
 (Presentation: http://phonegap.com/blog/2016/04/04/pgdayus2016-phonegap-reactjs/)
 (Repository: https://github.com/JedWatson/picture-tour-app/tree/master)
 
 ## Requirements
-npm version 3.9.5 or later
+1. npm version 3.9.5 or later
+2. ios-deploy (install: ```npm install -g ios-deploy```)
 
 ## Steps
 ### 1. Clone
@@ -29,6 +31,11 @@ npm install
 edit ```config.xml```
 Change <name>, <description>, and <author> tags
 
+**IMPORTANT** FOR IOS Development!!!
+Change <widget id="io.cordova.hellocordova" ... >
+
+The id must match your valid signing identity.
+
 ## Icons, Splashscreens and such
 I recommend using ionic for that. Easy instructions here: http://blog.ionic.io/automating-icons-and-splash-screens/
 There is an icon.png file in the root folder, replace that with your own icon file.
@@ -50,13 +57,16 @@ You can then open the app in your browser by visiting [localhost:8080](http://lo
 Edit file, and just save them. The browser will auto reload with new changes (hot reload)
 without losing state of the components. Go webpack + NPM!
 
-## Compiling for a platform (hot load inside a Simulator)
+## Compiling for a platform (doesn't work with hot load)
 
 Open it in the iOS Simulator by running (in another terminal):
 
 ```
 cordova platform add ios
 ```
+
+To avoid installing on your phone, disconnect the phone from your Mac :)
+This will start a 6s Simulator.
 
 ```
 npm run ios
@@ -76,7 +86,7 @@ npm run android
 
 In this mode, the app will live-reload changes to React components using [react-hot-loader](https://github.com/gaearon/react-hot-loader) and CSS changes using the Webpack CSS loader.
 
-### Build the app for production
+### Build the app for production (works well!)
 
 To build the app without the development hot module reloading server:
 
